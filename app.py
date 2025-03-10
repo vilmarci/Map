@@ -42,9 +42,6 @@ def quiz(filename):
     }
     return jsonify(response)
 
-@app.route('/ural')
-def ural():
-    return render_template('ural.html')
 
 @app.route('/geojson/<path:filename>')
 def geojson(filename):
