@@ -1,0 +1,44 @@
+{
+
+    "metadata":{
+        "name": "Netherlands Provinces",
+        "description": "Netherlands Provinces",
+        "source": "https://en.wikipedia.org/wiki/Provinces_of_the_Netherlands",
+        "license": "CC BY-SA 3.0",
+        "bounds": [
+            [50.7, 3.3],
+            [53.6, 7.2]
+        ] 
+    },
+
+    "geodata": {
+        "file": "nl_provinces.json",
+        "style": {
+            "color": "#dadada",
+            "weight": 1,
+            "fill": true,
+            "fillColor": "#666666",
+            "fillOpacity": 0.4
+        }
+    },
+
+    "questions":
+    [
+        {"name": "Drenthe", "coords": [52.8, 6.6], "scope": "Netherlands",  "show":false},
+        {"name": "Flevoland", "coords": [52.5, 5.5], "scope": "Netherlands",  "show":false},
+        {"name": "Friesland", "coords": [53.1, 5.8], "scope": "Netherlands",  "show":false},
+        {"name": "Gelderland", "coords": [52.0, 5.9], "scope": "Netherlands",  "show":false},
+        {"name": "Groningen", "coords": [53.2, 6.6], "scope": "Netherlands",  "show":false},
+        {"name": "Limburg", "coords": [51.4, 6.0], "scope": "Netherlands",  "show":false},
+        {"name": "Noord-Brabant", "coords": [51.6, 5.2], "scope": "Netherlands",  "show":false},
+        {"name": "Noord-Holland", "coords": [52.6, 4.8], "scope": "Netherlands",  "show":false},
+        {"name": "Overijssel", "coords": [52.4, 6.5], "scope": "Netherlands",  "show":false},
+        {"name": "Zuid-Holland", "coords": [52.0, 4.5], "scope": "Netherlands",  "show":false},
+        {"name": "Utrecht", "coords": [52.1, 5.1], "scope": "Netherlands",  "show":false},
+        {"name": "Zeeland", "coords": [51.5, 3.9], "scope": "Netherlands",  "show":false}
+    ]
+
+}
+
+
+

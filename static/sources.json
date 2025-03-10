@@ -1,0 +1,28 @@
+{
+    "sources": [
+        {
+        "name": "Montains",
+        "url": "https://cartographyvectors.com"
+        },
+        {
+            "name": "Caucasus montains",
+            "url": "https://sustainable-caucasus.unepgrid.ch"
+            },
+        {
+            "name": "Ural",
+            "url": "https://westra.ru/passes/kml/altai.geojson"
+        },
+        {
+            "name": "Countries",
+            "url": "https://cartographyvectors.com"
+        },
+        {
+            "name": "Netherlands Provinces",
+            "url": "https://en.wikipedia.org/wiki/Provinces_of_the_Netherlands"
+        },
+        {
+            "name": "Various objects",
+            "url": "https://overpass-turbo.eu/"
+        }
+    ]
+}

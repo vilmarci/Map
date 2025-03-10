@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "name": "Netherlands Cities",
+        "description": "Quiz about various cities in the Netherlands",
+        "source": "https://en.wikipedia.org/wiki/List_of_cities_in_the_Netherlands",
+        "license": "CC BY-SA 3.0",
+        "bounds": [
+            [50.7, 3.3],  
+            [53.6, 7.2]  
+        ]
+    },
+    "geodata": {
+        "file": "nl_cities.json",
+        "style": {
+            "color": "#AAAAAA",
+            "weight": 1,
+            "fill": true,
+            "fillColor": "#000000",
+            "fillOpacity": 1
+        }
+    },
+    "extralayers": [
+        {
+            "file": "the-netherlands.json",
+            "style": {
+                "color": "#AAAAAA",
+                "weight": 1,
+                "fill": true,
+                "fillColor": "#666666",
+                "fillOpacity": 0.4
+            }
+        }
+    ],
+    "questions": [
+        {"name": "Almere", "coords": [52.3508, 5.2647], "scope": "Netherlands", "show": false},
+        {"name": "Amersfoort", "coords": [52.1561, 5.3878], "scope": "Netherlands", "show": false},
+        {"name": "Amsterdam", "coords": [52.3676, 4.9041], "scope": "Netherlands", "show": false},
+        {"name": "Arnhem", "coords": [51.9851, 5.8987], "scope": "Netherlands", "show": false},
+        {"name": "Assen", "coords": [52.9946, 6.5642], "scope": "Netherlands", "show": false},
+        {"name": "Breda", "coords": [51.5719, 4.7683], "scope": "Netherlands", "show": false},
+        {"name": "Delfzijl", "coords": [53.3313, 6.9180], "scope": "Netherlands", "show": false},
+        {"name": "Den Haag", "coords": [52.0705, 4.3007], "scope": "Netherlands", "show": false},
+        {"name": "Den Helder", "coords": [52.9592, 4.7593], "scope": "Netherlands", "show": false},
+        {"name": "Eindhoven", "coords": [51.4416, 5.4697], "scope": "Netherlands", "show": false},
+        {"name": "Enschede", "coords": [52.2215, 6.8937], "scope": "Netherlands", "show": false},
+        {"name": "Groningen", "coords": [53.2194, 6.5665], "scope": "Netherlands", "show": false},
+        {"name": "Haarlem", "coords": [52.3874, 4.6462], "scope": "Netherlands", "show": false},
+        {"name": "Hengelo", "coords": [52.2657, 6.7931], "scope": "Netherlands", "show": false},
+        {"name": "Hilversum", "coords": [52.2292, 5.1669], "scope": "Netherlands", "show": false},
+        {"name": "Leeuwarden", "coords": [53.2012, 5.7990], "scope": "Netherlands", "show": false},
+        {"name": "Lelystad", "coords": [52.5185, 5.4714], "scope": "Netherlands", "show": false},
+        {"name": "Maastricht", "coords": [50.8514, 5.6900], "scope": "Netherlands", "show": false},
+        {"name": "Middelburg", "coords": [51.4988, 3.6138], "scope": "Netherlands", "show": false},
+        {"name": "Nijmegen", "coords": [51.8429, 5.8528], "scope": "Netherlands", "show": false},
+        {"name": "Rotterdam", "coords": [51.9225, 4.47917], "scope": "Netherlands", "show": false},
+        {"name": "'s-Hertogenbosch", "coords": [51.6868, 5.3037], "scope": "Netherlands", "show": false},
+        {"name": "Tilburg", "coords": [51.5555, 5.0913], "scope": "Netherlands", "show": false},
+        {"name": "Utrecht", "coords": [52.0907, 5.1214], "scope": "Netherlands", "show": false},
+        {"name": "Wageningen", "coords": [51.9692, 5.6657], "scope": "Netherlands", "show": false},
+        {"name": "Zwolle", "coords": [52.5113, 6.0912], "scope": "Netherlands", "show": false}
+    ]
+}

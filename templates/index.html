@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Map Quiz App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <h1>Map Quiz</h1>
+        <div id="quiz-selection">
+            <h2>Select a Quiz:</h2>
+            <ul id="quiz-list">
+                <!-- Quiz list populated by server-side rendering -->
+                {% for quiz in quizzes %}
+                    <li>
+                        <button onclick="startQuiz('{{ quiz.file }}')">{{ quiz.name }}</button>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <div id="sources">
+                <h3>Map sources</h3>
+                <ul>
+                  {% for source in sources %}
+                    <li><a href="{{ source.url }}" target="_blank">{{ source.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+              
+        
+        </div>
+        <div id="quiz-container" style="display:none;">
+            <h2 id="quiz-title"></h2>
+            <p id="quiz-description"></p>
+            <div id="question-container">
+                <h2>Current Question:</h2>
+                <p id="question"></p>
+            </div>
+            <button id="next" onclick="loadNextQuestion()">Next Question</button>
+            <button id="show-answer" onclick="showAnswer()">Show Answer</button>
+            <button id="back" onclick="showQuizSelection()">Back to Quiz Selection</button>
+        </div>
+        <div id="score-container" style="display:none;">
+            <!-- Score will be displayed here -->
+        </div>
+        <div id="finished-message" style="display:none;">
+            <p>Finished!</p>
+            <button onclick="window.location.href='{{ url_for('index') }}'">Restart Quiz</button>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

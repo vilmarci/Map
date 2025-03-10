@@ -1,0 +1,90 @@
+{
+
+    "metadata":{
+        "name": "Countries of the world",
+        "description": "Countries of the world",
+        "source": "",
+        "license": "CC BY-SA 3.0"
+    },
+
+    "geodata": {
+        "file": "countries.json",
+        "style": {
+            "color": "#dadada",
+            "weight": 1,
+            "fill": true,
+            "fillColor": "#666666",
+            "fillOpacity": 0.4
+        }
+    },
+
+    "questions":
+    [
+        {"name": "Afghanistan", "name_nl": "Afghanistan", "show": false},
+        {"name": "Antarctica", "name_nl": "Antarctica", "show": false},
+        {"name": "Argentina", "name_nl": "Argentinië", "show": false},
+        {"name": "Australia", "name_nl": "Australië", "show": false},
+        {"name": "Bangladesh", "name_nl": "Bangladesh", "show": false},
+        {"name": "Brazil", "name_nl": "Brazilië", "show": false},
+        {"name": "Canada", "name_nl": "Canada", "show": false},
+        {"name": "Chile", "name_nl": "Chili", "show": false},
+        {"name": "China", "name_nl": "China", "show": false},
+        {"name": "Colombia", "name_nl": "Colombia", "show": false},
+        {"name": "Republic of the Congo", "name_nl": "Congo", "show": false},
+        {"name": "Curacao", "name_nl": "Curaçao", "show": false},
+        {"name": "Egypt", "name_nl": "Egypte", "show": false},
+        {"name": "Ethiopia", "name_nl": "Ethiopië", "show": false},
+        {"name": "Philippines", "name_nl": "Filipijnen", "show": false},
+        {"name": "Greenland", "name_nl": "Groenland", "show": false},
+        {"name": "Hawaii", "name_nl": "Hawaii", "show": false},
+        {"name": "India", "name_nl": "India", "show": false},
+        {"name": "Indonesia", "name_nl": "Indonesië", "show": false},
+        {"name": "Iraq", "name_nl": "Irak", "show": false},
+        {"name": "Japan", "name_nl": "Japan", "show": false},
+        {"name": "Morocco", "name_nl": "Marokko", "show": false},
+        {"name": "Mexico", "name_nl": "Mexico", "show": false},
+        {"name": "New Zealand", "name_nl": "Nieuw-Zeeland", "show": false},
+        {"name": "Nigeria", "name_nl": "Nigeria", "show": false},
+        {"name": "Pakistan", "name_nl": "Pakistan", "show": false},
+        {"name": "Peru", "name_nl": "Peru", "show": false},
+        {"name": "Saudi Arabia", "name_nl": "Saudi-Arabië", "show": false},
+        {"name": "Sudan", "name_nl": "Sudan", "show": false},
+        {"name": "Suriname", "name_nl": "Suriname", "show": false},
+        {"name": "Taiwan", "name_nl": "Taiwan", "show": false},
+        {"name": "Thailand", "name_nl": "Thailand", "show": false},
+        {"name": "Venezuela", "name_nl": "Venezuela", "show": false},
+        {"name": "United States of America", "name_nl": "Verenigde Staten", "show": false},
+        {"name": "Vietnam", "name_nl": "Vietnam", "show": false},
+        {"name": "South Africa", "name_nl": "Zuid-Afrika", "show": false},
+        {"name": "Belgium", "name_nl": "België", "show": false},
+        {"name": "Bulgaria", "name_nl": "Bulgarije", "show": false},
+        {"name": "Denmark", "name_nl": "Denemarken", "show": false},
+        {"name": "Germany", "name_nl": "Duitsland", "show": false},
+        {"name": "Estonia", "name_nl": "Estland", "show": false},
+        {"name": "Finland", "name_nl": "Finland", "show": false},
+        {"name": "France", "name_nl": "Frankrijk", "show": false},
+        {"name": "Greece", "name_nl": "Griekenland", "show": false},
+        {"name": "Hungary", "name_nl": "Hongarije", "show": false},
+        {"name": "Iceland", "name_nl": "IJsland", "show": false},
+        {"name": "Italy", "name_nl": "Italië", "show": false},
+        {"name": "Latvia", "name_nl": "Letland", "show": false},
+        {"name": "Lithuania", "name_nl": "Litouwen", "show": false},
+        {"name": "Luxembourg", "name_nl": "Luxemburg", "show": false},
+        {"name": "Norway", "name_nl": "Noorwegen", "show": false},
+        {"name": "Ukraine", "name_nl": "Oekraïne", "show": false},
+        {"name": "Austria", "name_nl": "Oostenrijk", "show": false},
+        {"name": "Poland", "name_nl": "Polen", "show": false},
+        {"name": "Portugal", "name_nl": "Portugal", "show": false},
+        {"name": "Spain", "name_nl": "Spanje", "show": false},
+        {"name": "Czech Republic", "name_nl": "Tsjechië", "show": false},
+        {"name": "Turkey", "name_nl": "Turkije", "show": false},
+        {"name": "United Kingdom", "name_nl": "Verenigd Koninkrijk", "show": false},
+        {"name": "Sweden", "name_nl": "Zweden", "show": false},
+        {"name": "Switzerland", "name_nl": "Zwitserland", "show": false} 
+        
+    ]
+
+}
+
+
+

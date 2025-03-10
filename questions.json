@@ -1,0 +1,21 @@
+[
+    {"name": "Drenthe", "coords": [52.8, 6.6], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Flevoland", "coords": [52.5, 5.5], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Friesland", "coords": [53.1, 5.8], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Gelderland", "coords": [52.0, 5.9], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Groningen", "coords": [53.2, 6.6], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Limburg", "coords": [51.4, 6.0], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Noord-Brabant", "coords": [51.6, 5.2], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Noord-Holland", "coords": [52.6, 4.8], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Overijssel", "coords": [52.4, 6.5], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Zuid-Holland", "coords": [52.0, 4.5], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Utrecht", "coords": [52.1, 5.1], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {"name": "Zeeland", "coords": [51.5, 3.9], "scope": "Netherlands", "geodata": "nl_provinces.json", "show":false},
+    {
+        "name": "Almere",
+        "coords": [52.3508, 5.2647],
+        "scope": "Netherlands",
+        "geodata": "nl_country.json",
+        "show":true
+    }
+]

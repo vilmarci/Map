@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+#controls {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#map {
+    width: 70%;
+    height: 100%;
+}
+
+#question-container {
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+{
+
+    "metadata":{
+        "name": "Montains",
+        "description": "Montains",
+        "source": "https://cartographyvectors.coms"
+    },
+
+    "geodata": {
+        "file": "other_objects.json",
+        "style": {
+            "color": "#AAAAAA",
+            "weight": 1,
+            "fill": true,
+            "fillColor": "#000000",
+            "fillOpacity": 1
+        }
+    },
+    "extralayers": [
+        {
+            "file": "countries.json",
+            "style": {
+                "color": "#AAAAAA",
+                "weight": 1,
+                "fill": true,
+                "fillColor": "#666666",
+                "fillOpacity": 0.4
+            }
+        }
+    ],
+    "questions":
+    [
+        {"name": "Himalaya", "show":false},
+        {"name": "Andes", "show":false},
+        {"name": "Alps", "name_nl":"Alpen", "show":false},
+        {"name": "Caucasus Mountains", "name_nl":"Kaukasus", "show":false},
+        {"name": "Pyrenees", "name_nl":"Pyreneeën",  "show":false},
+        {"name": "Ural",  "show":false}
+
+    ]
+
+}
+
+
+
