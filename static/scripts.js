@@ -87,6 +87,7 @@ function loadGeoDataLayer(geodataFile, style) {
     }
 
     // Add new GeoJSON layer
+    // updated
     geojsonLayer = new L.GeoJSON.AJAX(`/geojson/${geodataFile}`, {
         style: style,
         onEachFeature: function(feature, layer) {
