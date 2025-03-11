@@ -19,3 +19,339 @@ body {
 #question-container {
     margin-top: 20px;
 }
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+li + li {
+    margin-top: 10px;
+  }
+
+/* Quiz Selection Styles */
+#quiz-selection {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#quiz-selection h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+#quiz-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quiz-list li {
+    margin: 10px 0;
+}
+
+#quiz-list .button-3 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quiz-list .button-3:hover {
+    background-color: #45a049;
+}
+
+/* Sources Styles */
+#sources {
+    background-color: #f9f9f9;
+    padding: 10px; /* Reduce padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0; /* Reduce margin */
+    font-size: 14px; /* Reduce font size */
+}
+
+#sources h3 {
+    margin-top: 0;
+    color: #4CAF50;
+    font-size: 16px; /* Reduce font size */
+}
+
+#sources ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px; /* Reduce font size */
+}
+
+#sources li {
+    margin: 5px 0;
+}
+
+#sources a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px; /* Reduce font size */
+}
+
+#sources a:hover {
+    text-decoration: underline;
+}
+
+
+/* Quiz Container Styles */
+#quiz-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: none; /* Initial state */
+}
+
+#quiz-container h2, #quiz-container p {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+#question-container {
+    margin-top: 20px;
+}
+
+#question-container h2 {
+    color: #333;
+}
+
+#question-container p {
+    color: #555;
+}
+
+/* Quiz Buttons */
+#quiz-container button {
+    appearance: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#quiz-container button:hover {
+    background-color: #45a049;
+}
+
+#quiz-container button:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+#quiz-container button:disabled {
+    background-color: #94d3a2;
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+#quiz-container button:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+/* Question Container Styles */
+#question-container {
+    margin-top: 20px;
+}
+
+#question-container h2 {
+    color: #333;
+    font-size: 16px; /* Reduce the size of the h2 */
+    margin-bottom: 10px;
+}
+
+#question-container p {
+    color: #4CAF50;
+    font-size: 18px; /* Increase the size of the question */
+    font-weight: bold; /* Make the question bold */
+    background-color: #f0f0f0; /* Add a subtle background color */
+    padding: 10px; /* Add some padding for better readability */
+    border-radius: 4px; /* Round the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for emphasis */
+}
+
+/* Page Title Styles */
+h1 {
+    font-size: 36px; /* Increase the font size */
+    color: #4CAF50; /* Use a vibrant color */
+    text-align: center; /* Center the title */
+    margin-top: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-family: 'Arial', sans-serif; /* Apply a clean, modern font */
+    letter-spacing: 2px; /* Add some space between letters */
+    background-color: #f0f0f0; /* Add a background color */
+    padding: 10px; /* Add padding around the title */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+
+/* Score Container Styles */
+#score-container {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: none; /* Initial state */
+    text-align: center; /* Center the text */
+}
+
+#score-container div {
+    display: inline-block;
+    font-size: 18px; /* Increase the font size for better visibility */
+    font-weight: bold; /* Make the text bold */
+    color: #4CAF50; /* Use the vibrant color for consistency */
+    margin: 0 5px; /* Add some margin between items */
+}
+
+/* Specific Styles for Score Text */
+#score-container #score-text {
+    color: #333; /* Different color for clarity */
+}
+
+#score-container #score-passed, #score-container #score-total {
+    background-color: #f0f0f0; /* Add a subtle background color */
+    padding: 5px; /* Add some padding for better readability */
+    border-radius: 4px; /* Round the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for emphasis */
+}
+
+
+/* Finished Message Styles */
+#finished-message {
+    background-color: #e0ffe0;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center; /* Center the text */
+    display: none; /* Initial state */
+}
+
+#finished-message p {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 0;
+}
+
+#finished-message button {
+    appearance: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#finished-message button:hover {
+    background-color: #45a049;
+}
+
+#finished-message button:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+#finished-message button:disabled {
+    background-color: #94d3a2;
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+#finished-message button:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}

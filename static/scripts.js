@@ -43,6 +43,7 @@ function startQuiz(filename) {
 
             loadExtraLayers(data.extralayers);
             document.getElementById('quiz-selection').style.display = 'none';
+            document.getElementById('sources').style.display = 'none';
             document.getElementById('quiz-container').style.display = 'block';
             document.getElementById('finished-message').style.display = 'none'; // Hide finished message
             loadFirstQuestion();
@@ -197,6 +198,7 @@ function bringGeoDataLayerToFront() {
 
 function showQuizSelection() {
     document.getElementById('quiz-selection').style.display = 'block';
+    document.getElementById('score-container').style.display = 'none';
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('finished-message').style.display = 'none'; // Hide finished message
     if (map) {
@@ -207,8 +209,12 @@ function showQuizSelection() {
 
 function updateScore() {
     const scoreContainer = document.getElementById('score-container');
+    const scorePassedDiv = document.getElementById('score-passed');
+    const scoreTotalDiv = document.getElementById('score-total');
     scoreContainer.style.display = 'block';
-    scoreContainer.textContent = `Score: ${passedQuestions}/${totalQuestions}`;
+   // scoreContainer.textContent = `Score: ${passedQuestions}/${totalQuestions}`;
+   scorePassedDiv.textContent = `${passedQuestions}`;
+   scoreTotalDiv.textContent = `${totalQuestions}`;
 }
 
 window.onload = function() {

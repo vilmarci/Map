@@ -17,10 +17,12 @@
                 <!-- Quiz list populated by server-side rendering -->
                 {% for quiz in quizzes %}
                     <li>
-                        <button onclick="startQuiz('{{ quiz.file }}')">{{ quiz.name }}</button>
+                        <button class="button-3" onclick="startQuiz('{{ quiz.file }}')">{{ quiz.name }}</button>
                     </li>
                 {% endfor %}
             </ul>
+        
+        </div> 
 
             <div id="sources">
                 <h3>Map sources</h3>
@@ -32,7 +34,7 @@
               </div>
               
         
-        </div>
+        
         <div id="quiz-container" style="display:none;">
             <h2 id="quiz-title"></h2>
             <p id="quiz-description"></p>
@@ -46,6 +48,10 @@
         </div>
         <div id="score-container" style="display:none;">
             <!-- Score will be displayed here -->
+            <div id="score-text">Score: </div>
+            <div id="score-passed"><!-- passed questions will be displayed here --> </div>
+            <div id="score-text"> / </div>
+            <div id="score-total"><!-- Total questions --></div>
         </div>
         <div id="finished-message" style="display:none;">
             <p>Finished!</p>
