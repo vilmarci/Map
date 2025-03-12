@@ -38,10 +38,11 @@ def quiz(filename):
     session['quiz_data'] = data
     response = {
         "metadata": data["metadata"],
-        "extralayers": data.get("extralayers", [])
+        "questions": data["questions"],  # Include questions in the response
+        "extralayers": data.get("extralayers", []),
+        "geodata": data["geodata"]  # Ensure geodata is included
     }
     return jsonify(response)
-
 
 @app.route('/geojson/<path:filename>')
 def geojson(filename):
@@ -62,9 +63,24 @@ def next_question(filename):
 
     response = {
         "question": current_question,
-        "geodata": quiz_data["geodata"]
+        "geodata": quiz_data["geodata"],
+        "questions": quiz_data["questions"]
     }
     return jsonify(response)
+
+
+
+@app.route('/reversed_quiz')
+def reversed_quiz():
+    with open(os.path.join('static', 'sources.json'), encoding="utf-8") as f:
+        sources_data = json.load(f)
+    sources = sources_data.get('sources', [])
+    quizzes = get_quiz_list()
+    return render_template('reversed_quiz.html', quizzes=quizzes, sources=sources)
+
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

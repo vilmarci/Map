@@ -35,7 +35,22 @@
         {"name": "Mumbai", "name_nl": "Mumbai", "show": false},
         {"name": "New York", "name_nl": "New York", "show": false},
         {"name": "Rio de Janeiro", "name_nl": "Rio de Janeiro", "show": false},
-        {"name": "Washington", "name_nl": "Washington", "show": false}
+        {"name": "Washington", "name_nl": "Washington", "show": false},
+        {"name": "Antwerp", "name_nl": "Antwerpen", "show": false},
+        {"name": "Athens", "name_nl": "Athene", "show": false},
+        {"name": "Barcelona", "name_nl": "Barcelona", "show": false},
+        {"name": "Berlin", "name_nl": "Berlijn", "show": false},
+        {"name": "Brussels", "name_nl": "Brussel", "show": false},
+        {"name": "Geneva", "name_nl": "Genève", "show": false},
+        {"name": "Istanbul", "name_nl": "Istanbul", "show": false},
+        {"name": "London", "name_nl": "Londen", "show": false},
+        {"name": "Madrid", "name_nl": "Madrid", "show": false},
+        {"name": "Milan", "name_nl": "Milaan", "show": false},
+        {"name": "Moscow", "name_nl": "Moskou", "show": false},
+        {"name": "Paris", "name_nl": "Parijs", "show": false},
+        {"name": "Rome", "name_nl": "Rome", "show": false},
+        {"name": "Warsaw", "name_nl": "Warschau", "show": false}
+
       ]
       
 

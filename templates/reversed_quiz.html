@@ -12,10 +12,8 @@
     <div id="controls">
         <h1>Map Quiz</h1>
         <div id="mode-selection">
-            <a class="button-3" href="/reversed_quiz">Switch to reverse mode</a>
+            <a class="button-3" href="/">Switch to normal mode</a>
         </div>
-
-
         <div id="quiz-selection">
             <h2>Select a Quiz:</h2>
             <ul id="quiz-list">
@@ -42,14 +40,16 @@
         
         <div id="quiz-container" style="display:none;">
             <h2 id="quiz-title"></h2>
-            <p id="quiz-description"></p>
+            <p id="quiz-description" style="display:none;"></p>
             <div id="question-container">
-                <h2>Current Question:</h2>
-                <p id="question"></p>
+                <h2>Which area is highlighted?</h2>
+                <ul id="answer-list" style="max-height: 300px; overflow-y: auto;">
+                    <!-- Question list items will be dynamically added here -->
+                </ul>
             </div>
-            <button id="next" onclick="loadNextQuestion()">Next Question</button>
-            <button id="show-answer" onclick="showAnswer()">Show Answer</button>
-            <button id="back" onclick="showQuizSelection()">Back to Quiz Selection</button>
+            <button class="button-3" id="next" onclick="loadNextQuestion()">Next Question</button>
+            <button class="button-3" id="show-answer" onclick="showAnswer()"style="display:none;">Show Answer</button>
+            <a class="button-3" id="back" href="/reversed_quiz">Back to Quiz Selection</a>
         </div>
         <div id="score-container" style="display:none;">
             <!-- Score will be displayed here -->
@@ -64,6 +64,6 @@
         </div>
     </div>
     <div id="map"></div>
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+    <script src="{{ url_for('static', filename='reversed_scripts.js') }}"></script>
 </body>
 </html>

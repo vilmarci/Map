@@ -42,13 +42,23 @@ function startQuiz(filename) {
             }
 
             loadExtraLayers(data.extralayers);
+
+            // Load GeoJSON layer when the quiz loads
+            if (data.geodata && data.geodata.file) {
+                loadGeoDataLayer(data.geodata.file, data.geodata.style);
+            }
+
             document.getElementById('quiz-selection').style.display = 'none';
             document.getElementById('sources').style.display = 'none';
             document.getElementById('quiz-container').style.display = 'block';
             document.getElementById('finished-message').style.display = 'none'; // Hide finished message
             loadFirstQuestion();
+
+            // Ensure the geojsonLayer is brought to front after adding layers
+            setTimeout(bringGeoDataLayerToFront, 100);  // Small timeout to ensure all layers are added
         });
 }
+
 
 function loadFirstQuestion() {
     fetch(`/next_question/${currentQuiz}`)
@@ -78,7 +88,7 @@ function loadQuestion(data) {
     document.getElementById('question').textContent = questionText;
 
     // Load new GeoJSON layer for the question
-    loadGeoDataLayer(data.geodata.file, data.geodata.style);
+    //loadGeoDataLayer(data.geodata.file, data.geodata.style);
 }
 
 function loadGeoDataLayer(geodataFile, style) {
@@ -88,7 +98,6 @@ function loadGeoDataLayer(geodataFile, style) {
     }
 
     // Add new GeoJSON layer
-    // updated
     geojsonLayer = new L.GeoJSON.AJAX(`/geojson/${geodataFile}`, {
         style: style,
         onEachFeature: function(feature, layer) {
@@ -216,6 +225,9 @@ function updateScore() {
    scorePassedDiv.textContent = `${passedQuestions}`;
    scoreTotalDiv.textContent = `${totalQuestions}`;
 }
+
+
+
 
 window.onload = function() {
     // The quiz list is populated by server-side rendering

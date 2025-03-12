@@ -73,17 +73,17 @@ body {
 }
 
 li + li {
-    margin-top: 10px;
+    margin-top: 2px;
   }
 
 /* Quiz Selection Styles */
 #quiz-selection {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 #quiz-selection h2 {
@@ -209,7 +209,7 @@ li + li {
 }
 
 #quiz-container button:focus {
-    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+   /* box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px; */
     outline: none;
 }
 
@@ -354,4 +354,28 @@ h1 {
 #finished-message button:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+#question-container .answer {
+    display: block;
+    width: 90%;
+    padding: 0.2em; /* Reduced padding */
+    margin: 0px; /* Smaller margin to keep buttons closer together */
+    font-size: 14px; /* Slightly smaller font size */
+    color: #ffffff;
+    background-color: #00008B; /* Darker blue for consistency */
+    border: 1px solid #00008B;
+    border-radius: 4px; /* Slightly rounded corners */
+    text-align: left; /* Align text to the left */
+    cursor: pointer;
+}
+
+#question-container .answer:hover {
+    background-color: #4682B4; /* Lighten color on hover for feedback */
+    border-color: #4682B4;
+}
+
+#question-container .answer:active {
+    background-color: #5F9EA0; /* Slightly darker color when clicked */
+    border-color: #5F9EA0;
 }
