@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "name": "Netherlands Cities",
-        "description": "Quiz about various cities in the Netherlands",
+        "name": "Cities of The Netherlands",
+        "description": "Quiz about various cities in The Netherlands",
         "source": "https://en.wikipedia.org/wiki/List_of_cities_in_the_Netherlands",
         "license": "CC BY-SA 3.0",
         "bounds": [
