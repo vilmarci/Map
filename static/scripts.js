@@ -168,6 +168,7 @@ function loadNextQuestion() {
             if (data.error) {
                 // No more questions available
                 document.getElementById('quiz-container').style.display = 'none';
+                document.getElementById('score-container').style.display = 'block';
                 document.getElementById('finished-message').style.display = 'block'; // Show finished message
             } else {
                 loadQuestion(data);

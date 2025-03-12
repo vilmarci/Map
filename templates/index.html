@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
 </head>
 <body>
     <div id="controls">
         <h1>Map Quiz</h1>
+        <div id="subcontrols">
+
         <div id="mode-selection">
             <a class="button-3" href="/reversed_quiz">Switch to reverse mode</a>
+            <a class="button-3" id="back" href="/">Home</a>
         </div>
 
-
+    </div>
         <div id="quiz-selection">
             <h2>Select a Quiz:</h2>
             <ul id="quiz-list">
@@ -49,7 +53,7 @@
             </div>
             <button id="next" onclick="loadNextQuestion()">Next Question</button>
             <button id="show-answer" onclick="showAnswer()">Show Answer</button>
-            <button id="back" onclick="showQuizSelection()">Back to Quiz Selection</button>
+
         </div>
         <div id="score-container" style="display:none;">
             <!-- Score will be displayed here -->

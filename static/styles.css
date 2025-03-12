@@ -21,8 +21,13 @@ body {
 }
 
 /* CSS */
+
+
+
+
 .button-3 {
   appearance: none;
+  margin-right: 15px;
   background-color: #2ea44f;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
@@ -155,7 +160,7 @@ li + li {
 /* Quiz Container Styles */
 #quiz-container {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -278,7 +283,7 @@ h1 {
     font-size: 18px; /* Increase the font size for better visibility */
     font-weight: bold; /* Make the text bold */
     color: #4CAF50; /* Use the vibrant color for consistency */
-    margin: 0 5px; /* Add some margin between items */
+    margin: 5px 5px; /* Add some margin between items */
 }
 
 /* Specific Styles for Score Text */
@@ -378,4 +383,15 @@ h1 {
 #question-container .answer:active {
     background-color: #5F9EA0; /* Slightly darker color when clicked */
     border-color: #5F9EA0;
+}
+
+
+#mode-selection, #score-container {
+    display: flex;
+    align-items: center;
+}
+
+#subcontrols {
+    display: flex;
+    align-items: center; /* Vertically aligns items to the center */
 }
